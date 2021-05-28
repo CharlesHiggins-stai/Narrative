@@ -1,0 +1,14 @@
+\section{Proposal}
+The proposal is to build upon a basic POMCP architecture with three major additions: 
+\begin{itemize}
+    \item Type-based reasoning to include prior knowledge of agent types. A particle-filtering mechanism can be used to reason about agent parameters in a dynamic and partially observable environment.
+    \item An agent-type specific policy network which guides the search samples. In effect re-using the belief over agent types computed within the particle-filtering component. 
+    \item An information theoretic value-function in early stages of interaction to swiftly identify another agent. This could be implemented via an updated value-function, rewarding actions and states which inspire maximal type-divergence (states where agent types act notably differently).
+\end{itemize} 
+The major novel contributions of this work would be:
+\begin{itemize}
+    \item Extending RL + Search to a general sum, n-player environment. 
+    \item Extending RL + Search to an explicit opponent modelling environment.
+    \item Extending belief-based planers with reinforcement learning. 
+    \item Extending a RL+Search architectures with an information theoretic value function.  
+\end{itemize}
