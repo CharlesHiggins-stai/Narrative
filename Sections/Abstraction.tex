@@ -1,0 +1,73 @@
+\section{Environment Abstraction: TODO: UPDATE AND DEVELOP THIS WEEK}
+\subsection{Partially observable Markov Decision Process POMDP}
+The environment can be phrased as a partially observable Markov decision process (POMDP). 
+A POMDP is defined as a tuple: 
+\begin{equation}
+    \langle S, A, O, P, Z, R, \gamma, b_0 \rangle
+\end{equation}
+
+\noindent$S$ is the set of states, $A$ the set of actions, $O$ the set of observations; 
+\newline \newline  
+$P = Pr(s_{t+1}|s_t, a_t)$ is a stochastic transition function, \newline \newline 
+ $Z = Pr(o_{t+1}|s_{t+1},a_{t})$ is the stochastic observation function; 
+ \newline \newline
+ $R = R(s_t, a_t)$ is the reward function;
+ \newline \newline
+ $\gamma \in [0,1]$ is the discount factor;
+ \newline \newline 
+ $b_0$ is the belief about the initial state.
+\newline \newline 
+At any time $t$, an agent takes an action ($a_t$), receives an observation ($o_t$) and reward ($r_t$). The agent aims to derive a policy $\pi$ which maximises its total discounted reward given its beliefs in a certain state. 
+\newline \newline
+Crucial to efficient planning and action selection is to minimise or eliminate the mismatch between the agent's belief/encoded model of the environment and the dynamics of the real environment (i.e. the ground truth). This model of the environment is expressed (in this framework) by the observation (imperfect observability) and transition functions. 
+\newline \newline
+To simplify, let the state-transition function be interpreted as $s_{t+1} \sim f(s_t,a_t)$, and the observation function be $o_{t+1} \sim g(s_{t+1}, a_t)$. 
+\newline \newline
+Given that the state can be changed by other agents, one can view the environment as having a joint action-space between the actions of an agent and all other agents present. Hence, with the assumption that another agent is present, one can then reform the state-transition function and observation functions to take into account the joint actions of all other agents and the environment dynamics, which shall be represented by $\Theta$: 
+\begin{equation}
+    s_{t+1} \sim f(s_t, a_t|\Theta) 
+\end{equation}
+\begin{equation}
+    o_{t+1} \sim g(s_{t+1}, a_t|\Theta) 
+\end{equation}
+\newline \newline
+Opponent modelling can be seen as an attempt to improve this model $\Theta$, by explicitly modelling an opponent, or group of opponents.
+The quality of the model dictates the quality of the state-transition and observation functions, and therefore the quality of the overall policy derived. 
+\newline \newline
+One can view $\Theta$ as an encapsulated opponent model, which when fed to a black box environment simulation (the function $ f(s_t, a_t|\Theta$) provides a projected next state.
+\newline \newline
+By way of an example, an agent would enter an environment with a belief over the likely parameter(s) of $\Theta$. As interactions continue, an agent can update the value(s) of $\Theta$ based on observations: the values of $\Theta$ are not immediately obvious however they can be inferred from observations/prior knowledge and some form of reasoning. Hence, the belief of an agent at time t can be seen as a joint distribution over:
+\begin{equation}
+    b_t(s,\Theta) = Pr(s_t,\Theta | h_t)
+\end{equation}
+where $h_t$ is the history of observations and action pairs ($h_t = [a_0, o_0, a_1, o_1 ... a_{t-1}, o_{t-1}]$) taken to reach the state $s_t$.
+
+\subsection{Parameterisation of $\Theta$}
+The previous section provides a general framework of simulation-based action-selection which makes use of an internal agent model to better inform an observation and state-transition function. This serves to show how an opponent model might fit into the action-selection pipeline.
+\newline \newline
+The definition of $\Theta$, and methods to accurately estimate $\Theta$, where theta refers to an number of opponent models in an open environment is ultimately the goal of the PhD.
+\newline\newline
+In the simplest form, $\Theta$ refers to a vector containing agent models: ${\theta_0, \theta_1,...,\theta_n} \in \Theta$. 
+\subsection{Individual agent models}
+Each $\theta_i \in \Theta$ is an agent present in the environment.    
+\subsubsection{Type-based reasoning}
+A popular and swift method of opponent modelling is type-based reasoning. Rather than building an assumed policy from scratch at run time, a modelling agent assigns a pre-specified agent model to an observed agent. This has often been supplied by the user, or (recently) has been learned over repeated interactions with other (similar) agents. 
+This leads to a (potentially) large number of agent \textit{types}: $\phi \in \Phi$.
+\newline \newline
+Hence, the parameter of $\phi$ in $\theta_i$ refers to agent model $\theta_i$ as being of type $\phi$. 
+\newline \newline
+Hence, in terms of the belief updating, one can rewrite the belief over state and model parameters, given an observation history to the belief over state and type of model, given an observation history. 
+\begin{equation}
+    b_t(s,\Theta) = Pr(s_t,\theta_i = \phi | h_t)
+\end{equation}
+
+ 
+\subsubsection{Policy reconstruction}
+Given prolonged or repeated interactions, it stands to reason that some types, if ill-fitting, could be updated by way of hyper-parameters. For instance, take a basic Q-learning agent, a key hyper-parameter might refer to the learning rate, which would in turn affect the fitting of the relevant agent model. Hence, in an approach similar to Albrecht and Stone \cite{Albrecht_stone_2019}, one can encapsulate parameters \textit{within} opponent types. 
+Each opponent is represented as a tuple:
+\begin{equation} 
+    \theta = \langle \phi^*, \pi, \rho \rangle
+\end{equation}
+Where $\phi$ represents the model type, $\pi$ represents a list containing the relevant parameter values, and $rho$ is a dictionary in which each entry relates a parameter value index to the possible parameter range. 
+Each entry will either contain a list containing discrete values, or a range indicating the scope of continuous variables. 
+
