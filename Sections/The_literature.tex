@@ -1,5 +1,19 @@
-\section{Background}
-There are two main paradigms which combine learning and reasoning in games --- 1) Reinforcement learning augmented search, and 2) sample, or belief-based planning. 
+\section{Background}\label{Background}
+In general terms there are two broad approaches to action-selection for autonomous agents: a learning vs a reasoning approach. The former starts with limited knowledge about the environment, and through sucessive trials and learning from actions and rewards, decides to learn a policy. The latter typically requies more domain knowledge, and reasons about actions before they are made in order to meet some objective/reach a desired state. 
+\subsection{Learning vs Reasoning}
+While this section is deliberately high-level, it makes a crucial point as to the strengths and weaknesses of data-driven learning vs reasoning approaches. In general, data-driven approaches can perform well, given sufficent time and resources to learn an optimal policy within a stationary environment. This policy often takes a huge amount of time to learn and develop as the agent learns the effects its actions have upon the environment. However, once learned, typically the execution is very swift --- depending on the exact architecture used times vary --- usually a single look-up in a Q table, or a single forward pass through a neural network. They also require very little expert knowledge to impliment, and given a stationary environment, can learn an optimal policy to maximise rewards. 
+\newline \newline
+In contrast, the reasoning approach requires very few, if any, learnig iterations before performing well. Rather than learning from scratch, reasoning agents typically have a model of the environment (hence the nominer model-based) which they query, testing out the likely effect of each possible action, and subsequent action. Typically, such agents are referred to as planners. These planning agents search for a chain of actions which take them from their initial state to a percieved goal state. As the search space expands exponentially in the number of sequential actions, this search is costly, and hence, at run time, these agents tend to be very slow. 
+\newline\newline
+In designing a swift agent therefore, one would require the intial performance of a reasoning agent, however the low-latency and swift response of a learning/data-driven agent. 
+\newline \newline
+One must also address the concept of robustness, and so the consequential qualities of safety (and subsequent trust, or lack thereof): data-driven or learning agents are hard to predict --- should the environment differ from that of their training, performance degrades significantly. 
+Further, such are prone to unpredictable and inexplicable action-selection, limiting their applicability from fields which contain any real element of risk. In contrast, reasoning agents are often deemed 'safer'. 
+They typically adapt well to changing circumstances, as their internal model already captures some of the environment's dymanics. 
+Furthermore, as such agents they investigate the results of each action before they undertake it, given the assumption that their comprehension of the environment dynamics is correct, they act safely and robustly.
+
+\subsection{Opponent Modelling}
+
 
 \subsection{Reinforcement learning augmented search} \label{RL + Search}
 In recent years, the combination of model-based search methods and deep reinforcement learning (via self-play) has achieved super-human performance in a number of benchmark challenges in game playing (adversarial) AI \cite{AlphaGo,Brown2020,Lerer2019}. 
