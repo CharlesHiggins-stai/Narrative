@@ -1,9 +1,25 @@
 \section{General context}
-\begin{itemize}
-    \item Opponent modelling roughly aims to compute a model of other agents in order to optimize action selection.
-    \item While a well developed field, methods have yet to extend to open environments. 
-    \item For an open environment, methods need to be swift, scalable and robust. 
-    \item This document looks at the swift component --- in short, RL agents are swift to execute, however take a while to train and can be unpredictable when dynamics shift drastically from training. Model-based reasoning approaches (planning) tends to be safer and predictable, but slow to execute. 
-    \item This document briefly discusses the state of the art in combining search and learning, and identifies gaps in the literature. 
+% \begin{itemize}
+%     \item Opponent modelling roughly aims to compute a model of other agents in order to optimize action selection.
+%     \item While a well developed field, methods have yet to extend to open environments. 
+%     \item For an open environment, methods need to be swift, scalable and robust. 
+%     \item This document looks at the swift component --- in short, RL agents are swift to execute, however take a while to train and can be unpredictable when dynamics shift drastically from training. Model-based reasoning approaches (planning) tends to be safer and predictable, but slow to execute. 
+%     \item This document briefly discusses the state of the art in combining search and learning, and identifies gaps in the literature. 
+% \end{itemize} 
 
-\end{itemize} 
+It is a truth universally acknowledged that a machine-learning agent in possesion of suffient data must be in want of converging to optimal rewards. However, given a non-stationary environment, such convergence is often not possible. Any environment where the relationship between state and optimal actions change over time is deemed non-stationary, hence, any open environment where \textit{other} agents might enter or leave or learn or update their policies in response to stimulae is deemed non-stationary. 
+\newline \newline
+Despite prodigious advances in recent years in games posing challenges through enormous state-spaces, requiring strategic thinking and planning, mutli-agent systems pose a number of open questions, crucially around safe and trustworthy action selection. If an agent is in a non-stationary environment, an agent cannot be sure of the results of its action before making it, and hence, cannot reasobly act safely. In the pursuit of safe and trusted AI therefore methods to address this non-stationarity are required. 
+\newline \newline
+One assumption one can reasonably make is that the non-stationary element of the environment is due (for the most part) due to other agents, as opposed to an intrinsic part of the wider world. One can then combine a model of another agent, designed to capture the non-stationary component of the environment, with a distinct (and stationary) environment model. Hence, an agent can control, or at the very least limit the negative effects of non-stationarity, and act with increasing certainty. This is the fundamental asumption made by a group of methods which are loosely referred to as opponent modelling. 
+\newline \newline
+Opponent modelling, particularly within the area of game-playing AI, has had notable successes in closed environments, however open environments still remain an open question (pun intended) \cite{Albrecht_stone_2019}. In order to combat some of the challenges posed by openness, an agent must learn not only to adapt to large numbers of opponents, but an agent must be able to perform opponent modelling \textit{swiftly} and \textit{robustly}: it must be able to swiftly reason over the nature of another agent (i.e. its intentions/reward function, obseravtions, and likely actions) and, equally swiflty, use this information to act safely, and ideally, optimally. 
+\newline \newline
+To meet this objective: a trustworthy method of action selection which is swift and robust, we propose a mutli-agent extension of policy-augented partially observable monte-carlo planning agent, with an opponent-weighted policy-augmented search component. This architecture builds upon the state of the art in opponent modelling and game-playing AI, and integrates a data-driven learning component within a model-based reasoning agent architecture which proves to outperform both in isolation, and other state of the art baseline methods, given an uncertain environment.  
+\newline \newline
+The remainder of this paper is structured as follows: Section __ introduces the background theory for opponent modelling, data-driven action-selection in game-playing AI and reasoning approaches. 
+Section __ formalises the environment
+Section __ introduces our contribution
+Section __ briefly describes the simulation environment used to extract results and the heuristic opponent agents
+Section __ lists the upcoming experiments and expected results, 
+Section __ concludes. 
