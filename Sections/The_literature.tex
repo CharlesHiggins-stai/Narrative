@@ -1,7 +1,22 @@
 \section{Background}\label{Background}
+This section provides an introduction to various basic concepts and intuitions required to understand the contex and contribution of this line of work. It starts with an introduction into multi-agent environments and opponent modelling, before discussing various methods of action-selection and their associated benefits and weaknesses, before finally introducing the core algorithms upon which this piece of works builds. 
+
+\subsection{Open environments \& opponent modelling}
+As mentioned in Section 1, if the environment is stationary -- that is, the relationship between the state of the environment and the eventual rewards, is fixed, a learning agent can eventually learn an optimal policy: a mapping between state and actions, which maximises discounted future rewards. 
+Hence, given enough data, an agent can learn to act optimally, and therefore safely, in such environments. However when the relationship between state and optimal actions change, converging to an optimal policy is not theoretically posisble. This however poses a problem as in reality, most environments exhibit a degree of non-stationarity. Indeed, a great number of these environments, non-stationarity comes as a result of other agents. Take for example, the challenge of an autonomous vehicle navigating down a coridoor. 
+\newline \newline
+In a single-agent environment, there is a simple optimal policy. Given enough iterations, an agent can learn how best to optimise actions to eventually move (in as few moves as possible) towards the exit. 
+\newline \newline
+Indeed even given a more complex relationship between optimal action selection and state, like partial observability, or noisy movements (i.e. the relationship between state-action pairs and the sucessive state is probabilistic), the optimal policy should adjust, and will remain fixed. Mathematically speaking, this environment exhibits the markov-property, where firstly, there exists an optimal policy, and secondly, the optimal policy is inferrable from only the current state (i.e. memoryless).
+\newline \newline
+Consider now, the same environment, but there exists at least one other agent. The optimal policy now depends on the state of the environment and the position of the other agent. Now,reasonably, one could image the other agent as being included in the state --- and indeed, if the other agent has a fixed policy, the envinronment is still stationary, however if that other agent learns, or updates it's policy, or enters and leaves, the environment is fundamentally changing...  
+
+
+\subsection{Action-Selection}
 In general terms there are two broad approaches to action-selection for autonomous agents: a learning vs a reasoning approach. The former starts with limited knowledge about the environment, and through sucessive trials and learning from actions and rewards, decides to learn a policy. The latter typically requies more domain knowledge, and reasons about actions before they are made in order to meet some objective/reach a desired state. 
-\subsection{Learning vs Reasoning}
-While this section is deliberately high-level, it makes a crucial point as to the strengths and weaknesses of data-driven learning vs reasoning approaches. In general, data-driven approaches can perform well, given sufficent time and resources to learn an optimal policy within a stationary environment. This policy often takes a huge amount of time to learn and develop as the agent learns the effects its actions have upon the environment. However, once learned, typically the execution is very swift --- depending on the exact architecture used times vary --- usually a single look-up in a Q table, or a single forward pass through a neural network. They also require very little expert knowledge to impliment, and given a stationary environment, can learn an optimal policy to maximise rewards. 
+\subsection{Learning vs Reasoning (high level)}
+While this section is deliberately high-level, it makes a crucial point as to the strengths and weaknesses of data-driven learning vs reasoning approaches. 
+In general, data-driven approaches can perform well, given sufficent time and resources to learn an optimal policy within a stationary environment. This policy often takes a huge amount of time to learn and develop as the agent learns the effects its actions have upon the environment. However, once learned, typically the execution is very swift --- depending on the exact architecture used times vary --- usually a single look-up in a Q table, or a single forward pass through a neural network. They also require very little expert knowledge to impliment, and given a stationary environment, can learn an optimal policy to maximise rewards. 
 \newline \newline
 In contrast, the reasoning approach requires very few, if any, learnig iterations before performing well. Rather than learning from scratch, reasoning agents typically have a model of the environment (hence the nominer model-based) which they query, testing out the likely effect of each possible action, and subsequent action. Typically, such agents are referred to as planners. These planning agents search for a chain of actions which take them from their initial state to a percieved goal state. As the search space expands exponentially in the number of sequential actions, this search is costly, and hence, at run time, these agents tend to be very slow. 
 \newline\newline
@@ -12,7 +27,6 @@ Further, such are prone to unpredictable and inexplicable action-selection, limi
 They typically adapt well to changing circumstances, as their internal model already captures some of the environment's dymanics. 
 Furthermore, as such agents they investigate the results of each action before they undertake it, given the assumption that their comprehension of the environment dynamics is correct, they act safely and robustly.
 
-\subsection{Opponent Modelling}
 
 
 \subsection{Reinforcement learning augmented search} \label{RL + Search}
