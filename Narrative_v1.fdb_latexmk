@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Narrative_v1"] 1630856272 "Narrative_v1.aux" "Narrative_v1.bbl" "Narrative_v1" 1630880969
+["bibtex Narrative_v1"] 1631136414 "Narrative_v1.aux" "Narrative_v1.bbl" "Narrative_v1" 1631136583
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Narrative_v1.aux" 1630856273 5608 8e3ca59f5c6aae7026831904ee86cb48 "pdflatex"
+  "Narrative_v1.aux" 1631136518 5746 a4a645c66f089328bee9ffdadccab2f3 "pdflatex"
   "library.bib" 1630664631 228528 1c8bd16eed3189557a982a1868069b1d ""
   (generated)
-  "Narrative_v1.blg"
   "Narrative_v1.bbl"
-["pdflatex"] 1630856272 "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.tex" "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.pdf" "Narrative_v1" 1630880969
-  "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.aux" 1630856273 5608 8e3ca59f5c6aae7026831904ee86cb48 ""
+  "Narrative_v1.blg"
+["pdflatex"] 1631136518 "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.tex" "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.pdf" "Narrative_v1" 1631136583
+  "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.aux" 1631136518 5746 a4a645c66f089328bee9ffdadccab2f3 ""
   "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.tex" 1630679447 502 47207cb85367455f1bdf456a40983344 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -80,20 +80,20 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1621802375 2724736 051fa0df6fc39cb2569e663b0b48d792 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Narrative_v1.aux" 1630856273 5608 8e3ca59f5c6aae7026831904ee86cb48 "pdflatex"
-  "Narrative_v1.bbl" 1630856272 3756 c28ec77d26176b4e1c6dd3c6a1a3d897 "bibtex Narrative_v1"
-  "Narrative_v1.out" 1630856273 6165 0394795ed01b4c20d2baeabbb2ec2eb0 "pdflatex"
+  "Narrative_v1.aux" 1631136518 5746 a4a645c66f089328bee9ffdadccab2f3 "pdflatex"
+  "Narrative_v1.bbl" 1631136414 3756 c28ec77d26176b4e1c6dd3c6a1a3d897 "bibtex Narrative_v1"
+  "Narrative_v1.out" 1631136518 6377 1947e333ad669af2761af5d7dcd21568 "pdflatex"
   "Narrative_v1.tex" 1630679447 502 47207cb85367455f1bdf456a40983344 ""
   "Sections/Abstraction.tex" 1630679385 6003 f437c1e6745a15de6c74ead63d04f013 ""
   "Sections/Environments.tex" 1630664631 5766 6c94f48d1919f0692c55a85ee30c36da ""
   "Sections/General_Context.tex" 1630679420 4253 7c7ad4510c07ddbb2fa35af81de9d117 ""
   "Sections/Proposal.tex" 1630664631 1207 57a6ca0f32e1e5d1a1b5df7126b0fb94 ""
   "Sections/Shortcomings.tex" 1630664631 3368 fcbaa8547f40eb017d250bd0101d7d77 ""
-  "Sections/The_literature.tex" 1630880969 19983 c1bb8217567de369f43d66e979343a81 ""
+  "Sections/The_literature.tex" 1631136582 23569 f639708add1f98831e34c2be41780e37 ""
   (generated)
-  "Narrative_v1.pdf"
-  "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.pdf"
-  "Narrative_v1.aux"
-  "Narrative_v1.log"
   "Narrative_v1.out"
   "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.log"
+  "Narrative_v1.pdf"
+  "Narrative_v1.aux"
+  "/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1.pdf"
+  "Narrative_v1.log"
