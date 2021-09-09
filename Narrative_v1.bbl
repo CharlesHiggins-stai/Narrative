@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{Albrecht__explioting_causality}
+S~V Albrecht and S~Ramamoorthy.
+\newblock {Exploiting causality for selective belief filtering in dynamic
+  Bayesian networks}.
+\newblock {\em Journal of Artificial Intelligence Research}, 55:1135--1178, apr
+  2016.
+
 \bibitem{Albrecht_stone_2019}
 S~V Albrecht and P~Stone.
 \newblock {Reasoning about hypothetical agent behaviours and their parameters}.
@@ -26,12 +33,29 @@ S~Barrett and P~Stone.
 \newblock In {\em Proceedings of the National Conference on Artificial
   Intelligence}, volume~3, pages 2010--2016. AI Access Foundation, jun 2015.
 
+\bibitem{Evalulation_of_adhoc_teamwork_Barrett_Stone_Kraus}
+S~Barrett, P~Stone, and S~Kraus.
+\newblock {Empirical evaluation of ad hoc teamwork in the pursuit domain}.
+\newblock In {\em 10th International Conference on Autonomous Agents and
+  Multiagent Systems {(AAMAS} 2011), Taipei, Taiwan, May 2-6, 2011, Volume
+  1-3}, pages 567--574, 2011.
+
+\bibitem{Barrett2017}
+Samuel Barrett, Avi Rosenfeld, Sarit Kraus, and Peter Stone.
+\newblock {Making friends on the fly: Cooperating with new teammates}.
+\newblock {\em Artificial Intelligence}, 242:132--171, jan 2017.
+
 \bibitem{Brown2020}
 Noam Brown, Anton Bakhtin, Adam Lerer, and Qucheng Gong.
 \newblock {Combining deep reinforcement learning and search for
   imperfect-information games}.
 \newblock In {\em 34th Conference on Neural Information Processing Systems
   (NeurIPS)}, 2020.
+
+\bibitem{Brown2017}
+Noam Brown and Tuomas Sandholm.
+\newblock {Safe and nested subgame solving for imperfect-information games},
+  2017.
 
 \bibitem{Fischer2020}
 Johannes Fischer and {\"{O}}mer~Sahin Tas.
@@ -57,10 +81,25 @@ Sammie Katt, Frans~A Oliehoek, and Christopher Amato.
 \newblock {Learning in POMDPs with monte carlo tree search}.
 \newblock In {\em International Conference on Machine Learning}, 2017.
 
+\bibitem{Leibo2017}
+Joel~Z Leibo, Vinicius Zambaldi, Marc Lanctot, Janusz Marecki, and Thore
+  Graepel.
+\newblock {Multi-agent reinforcement learning in sequential social dilemmas}.
+\newblock In {\em Proceedings of the International Joint Conference on
+  Autonomous Agents and Multiagent Systems, AAMAS}, volume~1, pages 464--473,
+  2017.
+
 \bibitem{Lerer2019}
 Adam Lerer, Hengyuan Hu, Jakob Foerster, and Noam Brown.
 \newblock {Improving policies via search in cooperative partially observable
   games}, 2019.
+
+\bibitem{mealing_shapiro_OM_by_expectation_maximisation}
+R~Mealing and J~Shapiro.
+\newblock {Opponent Modeling by Expectation-Maximization and Sequence
+  Prediction in Simplified Poker}.
+\newblock {\em {IEEE} Trans. Comput. Intellig. and {AI} in Games}, 9(1):11--24,
+  2017.
 
 \bibitem{Papoudakis2020}
 Georgios Papoudakis, Filippos Christianos, Lukas Sch{\"{a}}fer, and Stefano~V
