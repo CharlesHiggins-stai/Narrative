@@ -1,5 +1,8 @@
 
 \section{The building blocks: basic algorithms}
+\subsection{Particle Filtering: iterative approximate Bayesian Updates}
+
+
 \subsection{Monte Carlo Tree Search --- an approach to search in a large state-space}
 Monte Carlo Tree Search is a sample-based search algorithm which requires a simulation model of the environment to evaluate possible actions and future states in order to converge to an optimal policy online (i.e. re-evaluating from each state). 
 Each node represents a possible state, and transitions (edges) are possible (probabilistic) actions. At a given state, an agent traverses a computed tree, selecting actions with a heuristic until reaching a leaf node. At the leaf node, it then randomly selects actions and receives a potential successor state from the transition model. This is referred to as a rollout, and continues to some arbitrary depth of tree depending on available resources. It then evaluates the state and the rewards achieved in the leaf node, and propagates the rewards backwards up the tree. This cycle  (traversal, simulation (rollout) and backpropagation) then continues for a determined period, until a new action is selected, and a new state observed. 

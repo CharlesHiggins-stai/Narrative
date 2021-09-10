@@ -8,12 +8,12 @@ A POMDP is defined as a tuple:
 
 \noindent$S$ is the set of states, $A$ the set of actions, $O$ the set of observations; 
 \newline \newline  
-$P = Pr(s_{t+1}|s_t, a_t)$ is a stochastic transition function, \newline \newline 
- $Z = Pr(o_{t+1}|s_{t+1},a_{t})$ is the stochastic observation function; 
+$P = Pr(s_{t+1}|s_t, a_t)$ is a stochastic transition function, mapping a state and action to ta new state. \newline \newline 
+ $Z = Pr(o_{t+1}|s_{t+1},a_{t})$ is the stochastic observation function --- observations are not certain, hence the it is defined as the probability of observing a certain observation having taken an action in a given state. 
  \newline \newline
  $R = R(s_t, a_t)$ is the reward function;
  \newline \newline
- $\gamma \in [0,1]$ is the discount factor;
+ $\gamma \in [0,1]$ is the discount factor (discounting future rewards);
  \newline \newline 
  $b_0$ is the belief about the initial state.
 \newline \newline 
@@ -31,7 +31,7 @@ Given that the state can be changed by other agents, one can view the environmen
     o_{t+1} \sim g(s_{t+1}, a_t|\Theta) 
 \end{equation}
 \newline \newline
-Opponent modelling can be seen as an attempt to improve this model $\Theta$, by explicitly modelling an opponent, or group of opponents.
+Opponent modelling can be seen as an attempt to improve this model $\Theta$, by explicitly modelling an opponent, or group of opponents. 
 The quality of the model dictates the quality of the state-transition and observation functions, and therefore the quality of the overall policy derived. 
 \newline \newline
 One can view $\Theta$ as an encapsulated opponent model, which when fed to a black box environment simulation (the function $ f(s_t, a_t|\Theta$) provides a projected next state.
@@ -40,15 +40,15 @@ By way of an example, an agent would enter an environment with a belief over the
 \begin{equation}
     b_t(s,\Theta) = Pr(s_t,\Theta | h_t)
 \end{equation}
-where $h_t$ is the history of observations and action pairs ($h_t = [a_0, o_0, a_1, o_1 ... a_{t-1}, o_{t-1}]$) taken to reach the state $s_t$.
+where $h_t$ is the history of observations and action pairs ($h_t = [a_0, o_0, a_1, o_1 ... a_{t-1}, o_{t-1}]$) taken to reach the state $s_t$. In other words, the opponent model is included in an uncertain state-representation. Hence, in reasoning over the state, the agent also reasons over possible opponent models given an action history. 
 
 \subsection{Parameterisation of $\Theta$}
 The previous section provides a general framework of simulation-based action-selection which makes use of an internal agent model to better inform an observation and state-transition function. This serves to show how an opponent model might fit into the action-selection pipeline.
 \newline \newline
-The definition of $\Theta$, and methods to accurately estimate $\Theta$, where theta refers to an number of opponent models in an open environment is ultimately the goal of the PhD.
+The definition of $\Theta$, and methods to accurately estimate $\Theta$, where theta refers to an number of opponent models in an open environment is completed by a simulation based component known as a particle simulator (this is explained further in section TODO:INSERT SECTION).
 \newline\newline
 In the simplest form, $\Theta$ refers to a vector containing agent models: ${\theta_0, \theta_1,...,\theta_n} \in \Theta$. 
-\subsection{Individual agent models}
+\subsection{Type-based reasoning}
 Each $\theta_i \in \Theta$ is an agent present in the environment.    
 \subsubsection{Type-based reasoning}
 A popular and swift method of opponent modelling is type-based reasoning. Rather than building an assumed policy from scratch at run time, a modelling agent assigns a pre-specified agent model to an observed agent. This has often been supplied by the user, or (recently) has been learned over repeated interactions with other (similar) agents. 
@@ -61,13 +61,6 @@ Hence, in terms of the belief updating, one can rewrite the belief over state an
     b_t(s,\Theta) = Pr(s_t,\theta_i = \phi | h_t)
 \end{equation}
 
- 
-\subsubsection{Policy reconstruction}
-Given prolonged or repeated interactions, it stands to reason that some types, if ill-fitting, could be updated by way of hyper-parameters. For instance, take a basic Q-learning agent, a key hyper-parameter might refer to the learning rate, which would in turn affect the fitting of the relevant agent model. Hence, in an approach similar to Albrecht and Stone \cite{Albrecht_stone_2019}, one can encapsulate parameters \textit{within} opponent types. 
-Each opponent is represented as a tuple:
-\begin{equation} 
-    \theta = \langle \phi^*, \pi, \rho \rangle
-\end{equation}
-Where $\phi$ represents the model type, $\pi$ represents a list containing the relevant parameter values, and $rho$ is a dictionary in which each entry relates a parameter value index to the possible parameter range. 
-Each entry will either contain a list containing discrete values, or a range indicating the scope of continuous variables. 
+
+
 
