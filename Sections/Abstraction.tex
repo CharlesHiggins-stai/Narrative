@@ -42,7 +42,7 @@ By way of an example, an agent would enter an environment with a belief over the
 \end{equation}
 where $h_t$ is the history of observations and action pairs ($h_t = [a_0, o_0, a_1, o_1 ... a_{t-1}, o_{t-1}]$) taken to reach the state $s_t$. In other words, the opponent model is included in an uncertain state-representation. Hence, in reasoning over the state, the agent also reasons over possible opponent models given an action history. 
 
-\subsection{Parameterisation of $\Theta$}
+\subsection{Parameterisation of $\Theta$} \label{IncludingAgentModels}
 The previous section provides a general framework of simulation-based action-selection which makes use of an internal agent model to better inform an observation and state-transition function. This serves to show how an opponent model might fit into the action-selection pipeline.
 \newline \newline
 The definition of $\Theta$, and methods to accurately estimate $\Theta$, where theta refers to an number of opponent models in an open environment is completed by a simulation based component known as a particle simulator (this is explained further in section TODO:INSERT SECTION).

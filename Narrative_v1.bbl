@@ -63,13 +63,6 @@ Arnaud Doucet and Adam~M Johansen.
   later}.
 \newblock Technical report.
 
-\bibitem{Fischer2020}
-Johannes Fischer and {\"{O}}mer~Sahin Tas.
-\newblock {Information Particle Filter Tree: An Online Algorithm for {POMDP}s
-  with Belief-Based Rewards on Continuous Domains}.
-\newblock In {\em Proceedings of the 37th International Conference on Machine
-  Learning}, volume 119, pages 3177--3187, 2020.
-
 \bibitem{Hayashi_et_al2020}
 A~Hayashi, D~Ruiken, T~Hasegawa, and C~Goerick.
 \newblock {Reasoning about uncertain parameters and agent behaviors through

@@ -1,14 +1,18 @@
-\section{Proposal}
-The proposal is to build upon a basic POMCP architecture with three major additions: 
-\begin{itemize}
-    \item Type-based reasoning to include prior knowledge of agent types. A particle-filtering mechanism can be used to reason about agent parameters in a dynamic and partially observable environment.
-    \item An agent-type specific policy network which guides the search samples. In effect re-using the belief over agent types computed within the particle-filtering component. 
-    \item An information theoretic value-function in early stages of interaction to swiftly identify another agent. This could be implemented via an updated value-function, rewarding actions and states which inspire maximal type-divergence (states where agent types act notably differently).
-\end{itemize} 
-The major novel contributions of this work would be:
-\begin{itemize}
-    \item Extending RL + Search to a general sum, n-player environment. 
-    \item Extending RL + Search to an explicit opponent modelling environment.
-    \item Extending belief-based planers with reinforcement learning. 
-    \item Extending a RL+Search architectures with an information theoretic value function.  
-\end{itemize}
+\section{Opponent specific policy guidance}
+Previous architectures which have fared well in ad-hoc coordination style environments have applied an agent-policy as opposed to an agent-model \cite{Barrett2015}. This works well with type-based reasoning agents where one can be sure about an agent type, however relies on accurate agent models and a large amount of time to compute them.
+\newline \newline
+Now, as discussed previously, the purely learned strategies are difficult to be globally accurate, and fail to update swiftly given a new opponent. However, if one has access to an agent type, it stands to reason that one could compute a policy and apply a policy should an agent of that type arrive.
+\newline \newline
+In recent work, reinforcement learning has been used to restrict the search spaces to only promising moves. The major contribution of this piece of work is to apply opponent-specific policy networks to restrict the search space. Further, the extent of the restriction is dictated by an agent's confidence over the accuracy of an opponent model. Hence, if an opponent is complete unknown, the policy is not used at all, however, should the opponent be similar to an opponent, or similar to two different types of opponent, the search space should be pruned to allow for more searching in areas of the search space which are the most promising for agents of that sort. 
+\newline \newline
+The generation of these policies relies on offline training of cardinal opponents --- i.e. opponents of a certain sort for a considerable period of time. Given that this policy is subsymbolic, we employ an augmented form of Deep Q learning (dueling Q networks) in order to learn a policy. these networks employ the Bellman equation to provide Q values for all possible actions when given a certain state --- in this case, the observation an agent receives in each timestep.
+\subsection{Contribution}
+In each timestep, the generative model $G$ used for both the particle filter and for the Monte Carlo Rollouts evaluates particles, and updates the belief-state. In terms of the environment formulation in Section \ref{MDP/POMDP}, it updates the parameters of $\theta$, i.e. the belief over opponent models. For simplicity, the opponent types are limited to four cardinal types --- see appendix for explanation. 
+\newline \newline
+Having updated the values of $\theta$, the Monte Carlo Search Tree is constructed. The major change from the normal comes in the rollout phase, or specifically, in tayloring the rollouts.
+\newline\newline
+In each rollout, opponent actions are sampled at random from the set of available moves. In our suggestion, opponent moves are suggested by the opponent model sampled with a distribution computed by the particle filter. By doing this, the joint-action which ultimately dictates the resulting state is, assuming accurate classification of opponents, more accurate. 
+\newline \newline
+Secondly, during generic Monte Carlo rollouts the agent's actions are selected at random from the set of all agent's possible actions. In our modification, the agent's actions are sampled based on the probability of certain opponents, from the policies corresponding to those opponents. Therefore further pruning the samples to explore the search space which is likely to be the most promising. 
+\newline\newline
+We suggest that this is the first attempt in the field to have employed opponent-weighted policies to prune a search space for a fundamentally model-based agent. 

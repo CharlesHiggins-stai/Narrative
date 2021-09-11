@@ -2,6 +2,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{a4wide}
+\usepackage{caption}
+\captionsetup[figure]{font=small}
+\usepackage{graphicx}
 \begin{document}
 \title{Learning-augmented search for multi-agent environments}
 \author{Charles Higgins}  
@@ -14,7 +17,10 @@
 
 \input{Sections/Shortcomings.tex}
 \input{Sections/Proposal.tex}
+\input{Sections/ExperimentalEval.tex}
 
 \bibliographystyle{plain}  
 \bibliography{library.bib}
+\appendix
+\input{Sections/Appendix.tex}
 \end{document}
