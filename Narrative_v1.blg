@@ -3,44 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Narrative_v1.aux
 The style file: plain.bst
 Database file #1: library.bib
-You've used 20 entries,
+Warning--empty institution in he_om_DRL
+Warning--empty year in he_om_DRL
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            623 strings with 8536 characters,
-and the built_in function-call counts, 7854 in all, are:
-= -- 746
-> -- 445
+            628 strings with 8671 characters,
+and the built_in function-call counts, 8088 in all, are:
+= -- 768
+> -- 458
 < -- 9
-+ -- 174
-- -- 154
-* -- 562
-:= -- 1270
-add.period$ -- 58
-call.type$ -- 20
-change.case$ -- 137
++ -- 179
+- -- 158
+* -- 577
+:= -- 1314
+add.period$ -- 61
+call.type$ -- 21
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 276
-empty$ -- 584
-format.name$ -- 154
-if$ -- 1647
+cite$ -- 23
+duplicate$ -- 284
+empty$ -- 599
+format.name$ -- 158
+if$ -- 1691
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 21
 missing$ -- 16
-newline$ -- 99
-num.names$ -- 40
-pop$ -- 162
+newline$ -- 104
+num.names$ -- 42
+pop$ -- 169
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 121
 quote$ -- 0
-skip$ -- 226
+skip$ -- 231
 stack$ -- 0
-substring$ -- 444
+substring$ -- 449
 swap$ -- 81
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
-warning$ -- 0
-while$ -- 68
-width$ -- 22
-write$ -- 213
+type$ -- 84
+warning$ -- 2
+while$ -- 70
+width$ -- 23
+write$ -- 222
+(There were 2 warnings)

@@ -1,11 +1,43 @@
 
 \section{The building blocks: basic algorithms}
+The following section defines the basic methods upon which the contribution builds. It begins by describing a weighted particle filter for probabilistic state-estimation, a Monte Carlo Search Tree, and finally describes the architecture of a modified (Multi-Agent Partially Observable Monte Carlo Planner \cite{Hayashi_et_al2020,Silver2010}.  
 \subsection{Particle Filtering: iterative approximate Bayesian Updates}
-
+Traditionally the use of Bayes Law is used to reason over uncertain information to update the posterior probability of being in a certain state.
+\begin{equation}
+    B(s_t|h_t) = 
+     \frac{\Sigma_{s \in S} Z^{a}_{ss'}B(sh)}
+    {\Sigma_{s\in S} \Sigma_{s''\in S}Z^{a}_{s''}P^{a}_{ss''}B(sh)}
+\end{equation} 
+In complex environments (particularly those where there are multiple opponents), performing a complete Bayesian update can be so costly as to be intractable. Hence, recent works in opponent modelling have used deep-learning to approximate the update (see for example \cite{he_om_DRL}). However deep-neural nets require training, and can take many iterations before being successful. A recent strategy for opponent modelling (adapted by \cite{Hayashi_et_al2020}), however proposed to expand Monte-Carlo planning to partially observable domains is a sampling based approach which makes use of a generative environment model. This environment model ($G$) can be used to perform Bayesian Filtering. 
+\newline \newline
+The belief state (i.e. the belief distribution over possible states) is sampled for a history $h_t$ by $K$ particles, with index $i$ and a weighting of $w$ 
+\begin{equation}
+    k \in K, k = \langle i, w \rangle; B^i_t \in S, 1 < i < K    
+\end{equation}
+Each sample represents a possible state, and the belief-state is the weighted sum over all particles. 
+\newline \newline
+Particles are iteratively removed and reinvigorated at each timestep. At the start of a game/iteration, K particles are sampled from the initial belief-state. The agent selections an action $a_{t, real} \in A$, and receives an observation $o_{t+1,real}$. 
+\newline \newline
+Each particle is then evaluated. From the state in $K$, an agent uses the internal generative model to provide a sample of a successor observation: 
+\begin{equation}
+    o_{t+1, possible} = G(k_i, a_t)
+\end{equation}
+This possible state is then compared to the real observation via a distance metric to return a value of the accuracy of this particle $V(k)$, which in turn is used to update the value of each particles weighting ($w_k$) (by a learning rate denoted $\gamma$) 
+\begin{equation}
+    V(k_i) = o_{t+1, possible} - o_{t+1, real}
+\end{equation}
+\begin{equation}
+    w_{k_i} \leftarrow w_k + (- \gamma * V(k_i))
+\end{equation}
+The weaker particles are pruned based on a hyperparameter depending on the relative strength of weightings. Finally, new particles are created by sampling and adding Gaussian noise to existing particles. 
+\newline \newline
+The result is that as the history increases (i.e. more observations are evaluated) the belief-state should converge as inaccurate state hypotheses are filtered, and more accurate hypotheses increasingly suggested. 
 
 \subsection{Monte Carlo Tree Search --- an approach to search in a large state-space}
-Monte Carlo Tree Search is a sample-based search algorithm which requires a simulation model of the environment to evaluate possible actions and future states in order to converge to an optimal policy online (i.e. re-evaluating from each state). 
-Each node represents a possible state, and transitions (edges) are possible (probabilistic) actions. At a given state, an agent traverses a computed tree, selecting actions with a heuristic until reaching a leaf node. At the leaf node, it then randomly selects actions and receives a potential successor state from the transition model. This is referred to as a rollout, and continues to some arbitrary depth of tree depending on available resources. It then evaluates the state and the rewards achieved in the leaf node, and propagates the rewards backwards up the tree. This cycle  (traversal, simulation (rollout) and backpropagation) then continues for a determined period, until a new action is selected, and a new state observed. 
+Monte Carlo Tree Search is a sample-based search algorithm which, similar to a particle filer, requires a generative model of the environment ($G$) to evaluate possible actions and future states in order to converge to an optimal policy online (i.e. re-evaluating from each state). 
+\newline \newline
+An agent begins in a state state ($s_0 \in S$). From this state, it constructs a sample-based search tree of possible successor states. In this search tree, each node represents a possible state, and transitions (edges) are possible (probabilistic) actions. \newline \newline 
+At a given state, an agent traverses a computed tree, selecting actions with a heuristic (typically UCB1 algorithm, referred to as Upper Confidence Trees when applied to a MCTS) until reaching a leaf node. At the leaf node, it then randomly selects actions and receives a potential successor state from the transition model. This is referred to as a rollout, and continues to some arbitrary depth of tree depending on available resources. It then evaluates the state and the rewards achieved in the leaf node, and propagates the rewards backwards up the tree. This cycle  (traversal, simulation (rollout) and backpropagation) then continues for a determined period, until a new action is selected, and a new state observed. 
 \newline \newline
 This sampling-based approach is typically paired with a UCB1 algorithm (upper confidence bounds) which balances exploitable actions with under-explored alternatives, which has shown to converge (eventually) to an optimal policy \cite{Ross2011}. 
 \newline \newline

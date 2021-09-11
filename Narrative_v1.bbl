@@ -57,6 +57,12 @@ Noam Brown and Tuomas Sandholm.
 \newblock {Safe and nested subgame solving for imperfect-information games},
   2017.
 
+\bibitem{he_om_DRL}
+Arnaud Doucet and Adam~M Johansen.
+\newblock {A Tutorial on Particle Filtering and Smoothing: Fifteen years
+  later}.
+\newblock Technical report.
+
 \bibitem{Fischer2020}
 Johannes Fischer and {\"{O}}mer~Sahin Tas.
 \newblock {Information Particle Filter Tree: An Online Algorithm for {POMDP}s
