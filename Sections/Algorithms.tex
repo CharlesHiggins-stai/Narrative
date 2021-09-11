@@ -67,6 +67,12 @@ For a fixed time-period or for a fixed number of simulations, the cycle of \text
 \newline \newline
 This approach, typically when paired with a strong heuristic and an accurate transition/environment simulator, has shown to be an effective and powerful approach to action-selection in complex environments with large search spaces --- this algorithm forms the basis for most of the recent successes in adversarial AI (as described in more detail in Section \ref{RL + Search}) 
 
+\begin{figure}
+    \caption{Graphical representation of the four stages of a single iteration a Monte Carlo Tree Search, where $X$ represents the number of samples taken per timestep.}
+    \includegraphics[width = \textwidth]{Figures/MonteCarlo.png}
+    \centering
+\end{figure}
+
 \subsubsection{Aadapting Monte Carlo Tree Search to partially observable environments}
 Despite the success of a sample-based approach, the extension of planning to uncertain (partially observable) environments still poses problems. 
 In such an environemt (due to inperfect or incomplete observations), an agent is (initially) uncertain of the actual state. This causes considerable complexity, and has ramifications for the time and space requirements for computing an optimal policy. 

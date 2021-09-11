@@ -61,36 +61,38 @@
 \newlabel{MCTSDesc}{{4.2}{9}{Monte Carlo Tree Search --- an approach to search in a large state-space}{subsection.4.2}{}}
 \newlabel{UCB1}{{13}{9}{Monte Carlo Tree Search --- an approach to search in a large state-space}{equation.4.13}{}}
 \citation{Silver2010}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Graphical representation of the POMCP architecture: the Simulator/Generative model is used both to reason over the apparent state based on an action history, but also to reason over the best possible action absed on a sample-based planner\relax }}{10}{figure.caption.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Graphical representation of the four stages of a single iteration a Monte Carlo Tree Search, where $X$ represents the number of samples taken per timestep.\relax }}{10}{figure.caption.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Aadapting Monte Carlo Tree Search to partially observable environments}{10}{subsubsection.4.2.1}\protected@file@percent }
 \citation{Katt2017}
 \citation{Hayashi_et_al2020}
 \citation{Papoudakis2020}
 \citation{Barrett2015}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Graphical representation of the POMCP architecture: the Simulator/Generative model is used both to reason over the apparent state based on an action history, but also to reason over the best possible action absed on a sample-based planner\relax }}{11}{figure.caption.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Improving on POMCP --- updating the environment simulation}{11}{subsubsection.4.2.2}\protected@file@percent }
 \citation{Hayashi_et_al2020}
 \citation{Albrecht_stone_2019}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Improving on POMCP --- updating the environment simulation}{11}{subsubsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Incoporating agent models into MCTS}{11}{subsubsection.4.2.3}\protected@file@percent }
 \citation{Hayashi_et_al2020}
 \citation{ALBRECHT201866}
 \citation{Hernandez-Leal_MAL_Survey}
-\citation{Barrett2015}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Incoporating agent models into MCTS}{12}{subsubsection.4.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5}Shortcomings of related/current work}{12}{section.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Shortcomings of RL + Search}{12}{subsection.5.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Shortcomings of sample-based planning}{12}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Opponent specific policy guidance}{12}{section.6}\protected@file@percent }
+\citation{Barrett2015}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Opponent specific policy guidance}{13}{section.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Contribution}{13}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}Experimental Evaluation}{13}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Ad-hoc coordination: a challenge}{13}{subsection.7.1}\protected@file@percent }
 \citation{Albrecht2019}
 \citation{Barrett2015}
 \citation{Hayashi_et_al2020}
 \citation{Papoudakis2020}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Experimental Evaluation}{14}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Ad-hoc coordination: a challenge}{14}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.1}The level-based foraging domain}{14}{subsubsection.7.1.1}\protected@file@percent }
 \citation{Barrett2015}
 \citation{Albrecht_stone_2019}
 \citation{Hayashi_et_al2020}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.1}The level-based foraging domain}{14}{subsubsection.7.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Baselines in ad-hoc coordination}{14}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Baselines in ad-hoc coordination}{15}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Experiments}{15}{subsection.7.3}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{library.bib}
 \bibcite{Albrecht__explioting_causality}{1}
@@ -98,10 +100,6 @@
 \bibcite{ALBRECHT201866}{3}
 \bibcite{Albrecht2019}{4}
 \bibcite{Barrett2015}{5}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Experiments}{15}{subsection.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Evaluation/Thoughts}{15}{subsection.7.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Future work \& Conclusions}{15}{section.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Closing comments}{15}{subsection.8.1}\protected@file@percent }
 \bibcite{Evalulation_of_adhoc_teamwork_Barrett_Stone_Kraus}{6}
 \bibcite{Barrett2017}{7}
 \bibcite{Brown2020}{8}
@@ -111,6 +109,9 @@
 \bibcite{Hernandez-Leal_MAL_Survey}{12}
 \bibcite{Katt2017}{13}
 \bibcite{Leibo2017}{14}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Evaluation/Thoughts}{16}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Future work \& Conclusions}{16}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Closing comments}{16}{subsection.8.1}\protected@file@percent }
 \bibcite{Lerer2019}{15}
 \bibcite{mealing_shapiro_OM_by_expectation_maximisation}{16}
 \bibcite{Papoudakis2020}{17}
