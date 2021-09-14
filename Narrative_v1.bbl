@@ -100,6 +100,12 @@ R~Mealing and J~Shapiro.
 \newblock {\em {IEEE} Trans. Comput. Intellig. and {AI} in Games}, 9(1):11--24,
   2017.
 
+\bibitem{InteractivePOMDPs_panella_gmytrasiewicz}
+A~Panella and P~Gmytrasiewicz.
+\newblock {Interactive POMDPs with finite-state models of other agents}.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 31(4):861--904,
+  2017.
+
 \bibitem{Papoudakis2020}
 Georgios Papoudakis, Filippos Christianos, Lukas Sch{\"{a}}fer, and Stefano~V
   Albrecht.
