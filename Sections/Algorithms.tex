@@ -1,13 +1,12 @@
-
 \section{The building blocks: basic algorithms}
-The following section defines the basic methods upon which the contribution builds. It begins by describing a weighted particle filter for probabilistic state-estimation, a Monte Carlo Search Tree, and finally describes the architecture of a modified (Multi-Agent Partially Observable Monte Carlo Planner \cite{Hayashi_et_al2020,Silver2010}.  
+The following section defines the basic methods upon which the contribution builds. It begins by describing a weighted particle filter for probabilistic state-estimation, a Monte Carlo Search Tree, and finally describes the architecture of a (modified) Multi-Agent Partially Observable Monte Carlo Planner \cite{Hayashi_et_al2020,Silver2010}.  
 \subsection{Particle Filtering: iterative approximate Bayesian Updates}\label{ParticleFiter}
-Traditionally the use of Bayes Law is used to reason over uncertain information to update the posterior probability of being in a certain state.
+Traditionally the use of Bayes Law is used iteratively in each timestep to reason over uncertain information to update the posterior probability of being in a certain state.
 \begin{equation}
-    B(s_t|h_t) = 
-     \frac{\Sigma_{s \in S} Z^{a}_{ss'}B(sh)}
-    {\Sigma_{s\in S} \Sigma_{s''\in S}Z^{a}_{s''}P^{a}_{ss''}B(sh)}
+    b_{t+1}(s') = \frac{O^{s' a_t z_{t+1}} \Sigma_{s \in S} P^{s a_t s'} b_t (s)}{\Sigma_{s'' \in S} O^{s'' a_t z_{t+1}}  \Sigma_{s \in S} P^{s a_t s''} b_t (s)}
 \end{equation} 
+% This shows the computation necessary: the belief update over the state is equal to the probability of recieving an observation in state $s'$ given the previous action and observation. This is multiplied by summing over the transition probabilities of taking an action in the previous state, given the previous belief state. Finally this is all normalised over the sum over all possible states of the observation of reciving this observation, given the previous state and action if not in state $s'$ multiplies by the sum over the transition probabilies of moving from the previous state having taken action $a_t$ and arriving in not state $s'$ multiplied by the previous beliefs.
+\newline \newline
 In complex environments (particularly those where there are multiple opponents), performing a complete Bayesian update can be so costly as to be intractable. Hence, recent works in opponent modelling have used deep-learning to approximate the update (see for example \cite{he_om_DRL}). However deep-neural nets require training, and can take many iterations before being successful. A recent strategy for opponent modelling (adapted by \cite{Hayashi_et_al2020}), however proposed to expand Monte-Carlo planning to partially observable domains is a sampling based approach which makes use of a generative environment model. This environment model ($G$) can be used to perform Bayesian Filtering. 
 \newline \newline
 The belief state (i.e. the belief distribution over possible states) is sampled for a history $h_t$ by $K$ particles, with index $i$ and a weighting of $w$ 
@@ -34,9 +33,10 @@ The weaker particles are pruned based on a hyperparameter depending on the relat
 The result is that as the history increases (i.e. more observations are evaluated) the belief-state should converge as inaccurate state hypotheses are filtered, and more accurate hypotheses increasingly suggested. 
 
 \subsection{Monte Carlo Tree Search --- an approach to search in a large state-space}\label{MCTSDesc}
-Monte Carlo Tree Search is a sample-based search algorithm which, similar to a particle filer, requires a generative model of the environment ($G$) to evaluate possible actions and future states in order to converge to an optimal policy online (i.e. re-evaluating from each state). 
+Monte Carlo Tree Search is a sample-based search algorithm. 
+Similar to a particle filter, it requires a generative model of the environment ($G$) to evaluate possible actions and future states in order to converge to an optimal policy online (i.e. re-evaluating from each state). 
 \newline \newline
-An agent begins in a state state ($s_0 \in S$). From this state, it constructs a sample-based search tree of possible successor states.
+An agent begins in a state ($s_0 \in S$). From this state, it constructs a sample-based search tree of possible successor states.
 \begin{equation}
     T \sim \langle N, E \rangle
 \end{equation} 
