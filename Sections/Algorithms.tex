@@ -67,11 +67,11 @@ For a fixed time-period or for a fixed number of simulations, the cycle of \text
 \newline \newline
 This approach, typically when paired with a strong heuristic and an accurate transition/environment simulator, has shown to be an effective and powerful approach to action-selection in complex environments with large search spaces --- this algorithm forms the basis for most of the recent successes in adversarial AI (as described in more detail in Section \ref{RL + Search}) 
 
-\begin{figure}
+\begin{figure*}
     \caption{Graphical representation of the four stages of a single iteration a Monte Carlo Tree Search, where $X$ represents the number of samples taken per timestep.}
-    \includegraphics[width = \textwidth]{Figures/MonteCarlo.png}
+    \includegraphics[width = \textwidth, height = 8cm]{Figures/MonteCarlo.png}
     \centering
-\end{figure}
+\end{figure*}
 
 \subsubsection{Aadapting Monte Carlo Tree Search to partially observable environments}
 Despite the success of a sample-based approach, the extension of planning to uncertain (partially observable) environments still poses problems. 
@@ -84,11 +84,11 @@ Silver and Veness  \cite{Silver2010} combined a sampling-based approach to belie
 \newline \newline
 In small state spaces, the belief-state (i.e. distribution over the possible state) can be perfectly calculated by applying Bayes rule --- in large state spaces this can be computationally demanding, and a compact representation of the transition model (in terms of likelihoods) might not be available. To address this problem Silver and Veness contributed an algorithm, Partially Observable Monte Carlo Planning (POMCP), which uses a particle-filter: generating a number of small unweighted particles, each representing a possible state, and evaluating them based on expected vs received observations (as described in detail in Section \ref{ParticleFiter} and Section \ref{MCTSDesc}). They use this sampling-based approach to update the belief about the likely history at each time-step, and iteratively converge onto the true state.
 
-\begin{figure}
+\begin{figure*}
     \caption{Graphical representation of the POMCP architecture: the Simulator/Generative model is used both to reason over the apparent state based on an action history, but also to reason over the best possible action absed on a sample-based planner}
     \includegraphics[width=\textwidth]{Figures/POMCP.png}
     \centering  
-\end{figure}
+\end{figure*}
 
 As with typical Monte Carlo methods, the sampling approach greatly limits the search space as only (likely) reachable states are evaluated, and the belief over states can be efficiently computed. In short, sampling based methods have shown to allow for swift approximation over complex belief spaces, and the combination of a particle filter with a Monte Carlo Tree Search allows for accurate estimation of the belief-state, and accurate approximation of a near-optimal policy despite complex environments.
 

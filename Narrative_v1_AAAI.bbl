@@ -1,0 +1,163 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Albrecht and
+  Ramamoorthy}{2016}]{Albrecht__explioting_causality}
+Albrecht, S.~V., and Ramamoorthy, S.
+\newblock 2016.
+\newblock {Exploiting causality for selective belief filtering in dynamic
+  Bayesian networks}.
+\newblock {\em Journal of Artificial Intelligence Research} 55:1135--1178.
+
+\bibitem[\protect\citeauthoryear{Albrecht and Ramamoorthy}{2019}]{Albrecht2019}
+Albrecht, S.~V., and Ramamoorthy, S.
+\newblock 2019.
+\newblock {Comparative Evaluation of Multiagent Learning Algorithms in a
+  Diverse Set of Ad Hoc Team Problems}.
+
+\bibitem[\protect\citeauthoryear{Albrecht and
+  Stone}{2017}]{Albrecht_stone_2019}
+Albrecht, S.~V., and Stone, P.
+\newblock 2017.
+\newblock {Reasoning about hypothetical agent behaviours and their parameters}.
+\newblock In {\em Proceedings of the International Joint Conference on
+  Autonomous Agents and Multiagent Systems, AAMAS}, volume~1,  547--555.
+\newblock International Foundation for Autonomous Agents and Multiagent Systems
+  (IFAAMAS).
+
+\bibitem[\protect\citeauthoryear{Albrecht and Stone}{2018}]{ALBRECHT201866}
+Albrecht, S.~V., and Stone, P.
+\newblock 2018.
+\newblock {Autonomous agents modelling other agents: A comprehensive survey and
+  open problems}.
+\newblock {\em Artificial Intelligence} 258:66--95.
+
+\bibitem[\protect\citeauthoryear{Barrett and Stone}{2015}]{Barrett2015}
+Barrett, S., and Stone, P.
+\newblock 2015.
+\newblock {Cooperating with unknown teammates in complex domains: A robot
+  soccer case study of ad hoc teamwork}.
+\newblock In {\em Proceedings of the National Conference on Artificial
+  Intelligence}, volume~3,  2010--2016.
+\newblock AI Access Foundation.
+
+\bibitem[\protect\citeauthoryear{Barrett \bgroup et al\mbox.\egroup
+  }{2017}]{Barrett2017}
+Barrett, S.; Rosenfeld, A.; Kraus, S.; and Stone, P.
+\newblock 2017.
+\newblock {Making friends on the fly: Cooperating with new teammates}.
+\newblock {\em Artificial Intelligence} 242:132--171.
+
+\bibitem[\protect\citeauthoryear{Barrett, Stone, and
+  Kraus}{2011}]{Evalulation_of_adhoc_teamwork_Barrett_Stone_Kraus}
+Barrett, S.; Stone, P.; and Kraus, S.
+\newblock 2011.
+\newblock {Empirical evaluation of ad hoc teamwork in the pursuit domain}.
+\newblock In {\em 10th International Conference on Autonomous Agents and
+  Multiagent Systems {(AAMAS} 2011), Taipei, Taiwan, May 2-6, 2011, Volume
+  1-3},  567--574.
+
+\bibitem[\protect\citeauthoryear{Brown and Sandholm}{2017}]{Brown2017}
+Brown, N., and Sandholm, T.
+\newblock 2017.
+\newblock {Safe and nested subgame solving for imperfect-information games}.
+
+\bibitem[\protect\citeauthoryear{Brown \bgroup et al\mbox.\egroup
+  }{2020}]{Brown2020}
+Brown, N.; Bakhtin, A.; Lerer, A.; and Gong, Q.
+\newblock 2020.
+\newblock {Combining deep reinforcement learning and search for
+  imperfect-information games}.
+\newblock In {\em 34th Conference on Neural Information Processing Systems
+  (NeurIPS)}.
+
+\bibitem[\protect\citeauthoryear{Doucet and Johansen}{}]{he_om_DRL}
+Doucet, A., and Johansen, A.~M.
+\newblock {A Tutorial on Particle Filtering and Smoothing: Fifteen years
+  later}.
+\newblock Technical report.
+
+\bibitem[\protect\citeauthoryear{Hayashi \bgroup et al\mbox.\egroup
+  }{2020}]{Hayashi_et_al2020}
+Hayashi, A.; Ruiken, D.; Hasegawa, T.; and Goerick, C.
+\newblock 2020.
+\newblock {Reasoning about uncertain parameters and agent behaviors through
+  encoded experiences and belief planning}.
+\newblock {\em Artificial Intelligence} 280:103228.
+
+\bibitem[\protect\citeauthoryear{Hernandez-Leal \bgroup et al\mbox.\egroup
+  }{2017}]{Hernandez-Leal_MAL_Survey}
+Hernandez-Leal, P.; Kaisers, M.; Baarslag, T.; and de~Cote, E.
+\newblock 2017.
+\newblock {A Survey of Learning in Multiagent Environments: Dealing with
+  Non-Stationarity}.
+\newblock {\em CoRR} abs/1707.0.
+
+\bibitem[\protect\citeauthoryear{Katt, Oliehoek, and Amato}{2017}]{Katt2017}
+Katt, S.; Oliehoek, F.~A.; and Amato, C.
+\newblock 2017.
+\newblock {Learning in POMDPs with monte carlo tree search}.
+\newblock In {\em International Conference on Machine Learning}.
+
+\bibitem[\protect\citeauthoryear{Leibo \bgroup et al\mbox.\egroup
+  }{2017}]{Leibo2017}
+Leibo, J.~Z.; Zambaldi, V.; Lanctot, M.; Marecki, J.; and Graepel, T.
+\newblock 2017.
+\newblock {Multi-agent reinforcement learning in sequential social dilemmas}.
+\newblock In {\em Proceedings of the International Joint Conference on
+  Autonomous Agents and Multiagent Systems, AAMAS}, volume~1,  464--473.
+
+\bibitem[\protect\citeauthoryear{Lerer \bgroup et al\mbox.\egroup
+  }{2019}]{Lerer2019}
+Lerer, A.; Hu, H.; Foerster, J.; and Brown, N.
+\newblock 2019.
+\newblock {Improving policies via search in cooperative partially observable
+  games}.
+
+\bibitem[\protect\citeauthoryear{Mealing and
+  Shapiro}{2017}]{mealing_shapiro_OM_by_expectation_maximisation}
+Mealing, R., and Shapiro, J.
+\newblock 2017.
+\newblock {Opponent Modeling by Expectation-Maximization and Sequence
+  Prediction in Simplified Poker}.
+\newblock {\em {IEEE} Trans. Comput. Intellig. and {AI} in Games} 9(1):11--24.
+
+\bibitem[\protect\citeauthoryear{Panella and
+  Gmytrasiewicz}{2017}]{InteractivePOMDPs_panella_gmytrasiewicz}
+Panella, A., and Gmytrasiewicz, P.
+\newblock 2017.
+\newblock {Interactive POMDPs with finite-state models of other agents}.
+\newblock {\em Autonomous Agents and Multi-Agent Systems} 31(4):861--904.
+
+\bibitem[\protect\citeauthoryear{Papoudakis \bgroup et al\mbox.\egroup
+  }{2020}]{Papoudakis2020}
+Papoudakis, G.; Christianos, F.; Sch{\"{a}}fer, L.; and Albrecht, S.~V.
+\newblock 2020.
+\newblock {Comparative Evaluation of Multi-Agent Deep Reinforcement Learning
+  Algorithms}.
+
+\bibitem[\protect\citeauthoryear{Ross \bgroup et al\mbox.\egroup
+  }{2011}]{Ross2011}
+Ross, S.; Pineau, J.; Chaib-Draa, B.; and Kreitmann, P.
+\newblock 2011.
+\newblock {Bayesian approach for learning and planning in partially observable
+  markov decision processes}.
+\newblock {\em Journal of Machine Learning Research} 12:1729--1770.
+
+\bibitem[\protect\citeauthoryear{Silver and Veness}{2010}]{Silver2010}
+Silver, D., and Veness, J.
+\newblock 2010.
+\newblock {Monte-Carlo planning in large POMDPs}.
+\newblock In {\em Advances in Neural Information Processing Systems 23: 24th
+  Annual Conference on Neural Information Processing Systems 2010, NIPS 2010}.
+
+\bibitem[\protect\citeauthoryear{Silver \bgroup et al\mbox.\egroup
+  }{2016}]{AlphaGo}
+Silver, D.; Huang, A.; Maddison, C.; Guez, A.; Sifre, L.; van~den Driessche,
+  G.; Schrittwieser, J.; Antonoglou, I.; Panneershelvam, V.; Lanctot, M.;
+  Dieleman, S.; Grewe, D.; Nham, J.; Kalchbrenner, N.; Sutskever, I.;
+  Lillicrap, T.; Leach, M.; Kavukcuoglu, K.; Graepel, T.; and Hassabis, D.
+\newblock 2016.
+\newblock {Mastering the game of Go with deep neural networks and tree search}.
+\newblock {\em Nature} 529(7587):484--489.
+
+\end{thebibliography}

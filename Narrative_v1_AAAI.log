@@ -1,0 +1,1051 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.18)  16 SEP 2021 16:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.tex
+(/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/aaai.sty
+Conference Style for AAAI for LaTeX 2e -- version of 1 December 2013
+\titlebox=\skip43
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.aux)
+\openout1 = `Narrative_v1_AAAI.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count87
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count88
+\nofMParguments=\count89
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count90
+\MPscratchDim=\dimen106
+\MPnumerator=\count91
+\makeMPintoPDFobject=\count92
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 24.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 24.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+ (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/General_Context.tex) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/The_literature.tex
+Underfull \hbox (badness 2205) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 not pos-si-ble. Any en-vi-ron-ment where the re-la-tion-ship
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 Despite prodi-gious ad-vances in re-cent years in games
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 prob-lems re-volve around safe and trust-wor-thy action-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 One as-sump-tion one can rea-son-ably make is that the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 Opponent mod-elling, par-tic-u-larly within the area of
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 game-playing AI, has had no-table suc-cesses in closed
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 en-vi-ron-ments, how-ever so-lu-tions have yet to ex-tend
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 Traditional or reg-u-lar meth-ods of ac-tion se-leciton for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 The re-main-der of this pa-per is struc-tured as fol-lows:
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 mod-elling, data-driven action-selection in game-playing
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 AI and rea-son-ing ap-proaches. Sec-tion [] for-malises the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 2512) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 state and ac-tions, which max-imises dis-counted fu-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 In a single-agent en-vi-ron-ment, there is a sim-ple op-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 Given a more com-plex re-la-tion-ship be-tween op-ti-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 Consider now, the same en-vi-ron-ment, but there ex-ists
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 This non-stationarity poses prob-lems for agents which
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 5--15
+\OT1/ptm/m/n/10 of non-stationary and un-cer-tainty within an-other agent
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 There are two dis-tinct chal-lenges posed by op-po-nent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 The first chal-lenge is rather dif-fi-cult to ap-proach, as
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 de-pend-ing on the con-straints and flow of in-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 Arguably the sim-plest and most com-mon form of op-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 A com-mon and far swifter form of op-po-nent mod-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 Kraus 2011) for a num-ber of re-cent well per-form-ing
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 op-po-nent at the mo-ment of en-coun-ter-ing an op-po-nent.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 Type-based rea-son-ers, and to an ex-tent, policy-
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 reconstruction mod-els al-low for the gen-er-al-iza-tion of
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 in pre-dict-ing ac-tions in sce-nar-ios in-volv-ing in-com-plete
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 leads to re-cur-sive cy-cles of be-liefs about other agents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 17--29
+\OT1/ptm/m/n/10 The most ap-pli-ca-ble form of op-po-nent mod-elling to
+ []
+
+[2]
+Underfull \hbox (badness 1292) in paragraph at lines 30--35
+\OT1/ptm/m/n/10 ma-jor-ity of op-po-nent mod-elling work has been de-vel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 30--35
+\OT1/ptm/m/n/10 In re-cent years there has been in-creas-ing in-ter-est in
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 30--35
+\OT1/ptm/m/n/10 mixed-motive games, where agents must in-ter-act with
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 30--35
+\OT1/ptm/m/n/10 Here so-lu-tion con-cepts are ar-guably more chal-leng-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 37.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 its ac-tions have upon the en-vi-ron-ment. How-ever, once
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 sin-gle look-up in a Q ta-ble, or a sin-gle for-ward pass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--50
+
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 In con-trast, the rea-son-ing ap-proach re-quires very few,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--50
+
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 In de-sign-ing a swift agent there-fore, one would re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--50
+
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 One must also ad-dress the con-cept of ro-bust-ness, and
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 40--50
+\OT1/ptm/m/n/10 selection, lim-it-ing their ap-pli-ca-bil-ity from fields which
+ []
+
+[3]
+Underfull \hbox (badness 1147) in paragraph at lines 53--71
+ \OT1/ptm/b/n/10 Re-in-force-ment learn-ing aug-mented search \OT1/ptm/m/n/10 In re-cent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 of these al-go-rithms re-mains con-stant: a sample-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 Briefly, these al-go-rithms struc-ture the en-vi-ron-ment as
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 ex-po-nen-tially, swiftly ren-der-ing a typ-i-cal search-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 A sam-ple based search al-go-rithm con-structs a search
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 op-tions), and av-er-ages across the ex-pected re-wards of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 Both net-works are trained through a com-bi-na-tion of
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 un-likely/unfavorable). The value net-work trun-cates the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 the prob-lem of im-per-fect in-for-ma-tion games (namely
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 53--71
+\OT1/ptm/m/n/10 game into a con-tin-u-ous state-space per-fect in-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--71
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Abstraction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 9--27
+\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Pr\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]; a[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 is a stochas-tic tran-si-tion func-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 9--27
+\OML/cmm/m/it/10 Z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Pr\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 o[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]; a[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 is the stochas-tic ob-ser-va-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 9--27
+\OT1/ptm/m/n/10 In ev-ery timestep $\OML/cmm/m/it/10 t$\OT1/ptm/m/n/10 , an agent re-ceives a re-ward ($\OML/cmm/m/it/10 r[]$\OT1/ptm/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 9--27
+\OT1/ptm/m/n/10 To sim-plify, let the state-transition func-tion be in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--27
+
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 9--27
+\OT1/ptm/m/n/10 Given that the state can be changed by other agents,
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 9--27
+\OT1/ptm/m/n/10 one can then re-form the state-transition func-tion and
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 32--40
+
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 32--40
+\OT1/ptm/m/n/10 model, and there-fore the qual-ity of the over-all pol-icy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--40
+
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 32--40
+\OT1/ptm/m/n/10 cap-su-lated (in-ter-nal) en-vi-ron-ment model, which when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--40
+
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 32--40
+\OT1/ptm/m/n/10 of $\OT1/cmr/m/n/10 ^^B$ \OT1/ptm/m/n/10 based on ob-ser-va-tions: the val-ues of $\OT1/cmr/m/n/10 ^^B$ \OT1/ptm/m/n/10 are not
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 45.
+
+Underfull \hbox (badness 1163) in paragraph at lines 46--50
+\OT1/ptm/m/n/10 The pre-vi-ous sec-tion pro-vides a gen-eral frame-work of
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 46--50
+\OT1/ptm/m/n/10 simulation-based action-selection which makes use of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 46--50
+\OT1/ptm/m/n/10 In the sim-plest form, $\OT1/cmr/m/n/10 ^^B$ \OT1/ptm/m/n/10 refers to a vec-tor con-tain-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--58
+
+ []
+
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Algorithms.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 7--13
+\OT1/ptm/m/n/10 works in op-po-nent mod-elling have used deep-learning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 15--21
+\OT1/ptm/m/n/10 Particles are it-er-a-tively re-moved and rein-vig-o-rated at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 15--21
+\OT1/ptm/m/n/10 Each par-ti-cle is then eval-u-ated. From the state in $\OML/cmm/m/it/10 K$\OT1/ptm/m/n/10 ,
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 30--34
+\OT1/ptm/m/n/10 The re-sult is that as the his-tory in-creases (i.e. more
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 30--34
+\OT1/ptm/m/n/10 ob-ser-va-tions are eval-u-ated) the belief-state should con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--40
+
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 36--40
+\OT1/ptm/m/n/10 it con-structs a sample-based search tree of pos-si-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 47--50
+\OT1/ptm/m/n/10 In each it-er-a-tion, the tree is tra-versed in a best-first
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
+
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 61--69
+\OT1/ptm/m/n/10 This ap-proach, typ-i-cally when paired with a strong
+ []
+
+<Figures/MonteCarlo.png, id=32, 3703.8375pt x 2300.595pt>
+File: Figures/MonteCarlo.png Graphic file (type png)
+<use Figures/MonteCarlo.png>
+Package pdftex.def Info: Figures/MonteCarlo.png  used on input line 72.
+(pdftex.def)             Requested size: 505.87415pt x 227.61568pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--86
+
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 77--86
+\OT1/ptm/m/n/10 In an $\OML/cmm/m/it/10 n$\OT1/ptm/m/n/10 -stateful en-vi-ron-ment, an agent must com-pute
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--86
+
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 77--86
+\OT1/ptm/m/n/10 Silver and Ve-ness ( Sil-ver and Ve-ness 2010) com-bined
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--86
+
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 77--86
+\OT1/ptm/m/n/10 In small state spaces, the belief-state (i.e. dis-tri-bu-tion
+ []
+
+[6]
+<Figures/POMCP.png, id=38, 4998.675pt x 1887.05pt>
+File: Figures/POMCP.png Graphic file (type png)
+<use Figures/POMCP.png>
+Package pdftex.def Info: Figures/POMCP.png  used on input line 89.
+(pdftex.def)             Requested size: 505.89pt x 190.96199pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
+
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 96--104
+\OT1/ptm/m/n/10 In re-cent years, there have been two no-table works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
+
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 96--104
+\OT1/ptm/m/n/10 Bar-rett and Stone 2015), in which agent types were
+ []
+
+[7 </home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Figures/MonteCarlo.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 106--33
+
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 106--33
+\OT1/ptm/m/n/10 In a multi-agent en-vi-ron-ment, the tran-si-tion func-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--33
+
+ []
+
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Shortcomings.tex
+Underfull \hbox (badness 1052) in paragraph at lines 3--8
+\OT1/ptm/m/n/10 guide search: play-ers' in-ten-tions are sym-met-ric --- the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 3--8
+\OT1/ptm/m/n/10 un-knowns are known-unknowns, rather than unknown-
+ []
+
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Proposal.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--1
+
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 Finally, there seems a dis-tinct lack of work re-gard-ing
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 ac-tively seek-ing out in-for-ma-tion in action-based op-po-
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 is some-what sur-pris-ing as this area has been iden-ti-
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 fied in sev-eral sur-veys as an open prob-lem, and one
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 wor-thy of con-sid-er-a-tion ( Al-brecht and Stone 2018;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--1
+
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 9--1
+\OT1/ptm/m/n/10 In brief: RL+Search ar-chi-tec-tures have yet to be ap-
+ []
+
+[8 </home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Figures/POMCP.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 2--9
+\OT1/ptm/m/n/10 In re-cent work, re-in-force-ment learn-ing has been used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/ExperimentalEval.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 In each roll-out, op-po-nent ac-tions are sam-pled at ran-
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 op-po-nent moves are sug-gested by the op-po-nent model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
+
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 10--1
+\OT1/ptm/m/n/10 have em-ployed opponent-weighted poli-cies to prune a
+ []
+
+(/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Environments.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 2--8
+\OT1/ptm/m/n/10 This en-vi-ron-ment shares a num-ber of as-pects with
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 13--15
+\OT1/ptm/m/n/10 learn-ing at run-time and as-sumes that the types are
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 15--17
+[]\OT1/ptm/m/n/10 Albrecht and Stone: rea-son-ing about un-cer-tain agent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 15--17
+\OT1/ptm/m/n/10 Barrett and Stone ad-dressed the prob-lem of static
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 15--17
+\OT1/ptm/m/n/10 i-mate bayesian up-dat-ing, and ex-act global up-dat-ing)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 17--19
+\OT1/ptm/m/n/10 Hayashi et al. em-ploy type-based rea-son-ing with
+ []
+
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+ [10]) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.bbl
+Underfull \hbox (badness 1789) in paragraph at lines 5--10
+[]\OT1/ptm/m/n/10 Albrecht, S. V., and Ra-mamoor-thy, S.  2016.  Ex-
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 66--72
+\OT1/ptm/m/n/10 Com-bin-ing deep re-in-force-ment learn-ing and search for
+ []
+
+) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Appendix.tex) [11] (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.aux) ) 
+Here is how much of TeX's memory you used:
+ 1644 strings out of 492982
+ 26138 string characters out of 6134896
+ 90124 words of memory out of 5000000
+ 5155 multiletter control sequences out of 15000+600000
+ 23340 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,25p,1203b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.pdf (11 pages, 657528 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

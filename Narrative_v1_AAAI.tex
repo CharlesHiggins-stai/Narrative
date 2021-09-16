@@ -1,0 +1,43 @@
+%File: formatting-instruction.tex
+\documentclass[letterpaper]{article}
+\usepackage{aaai}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage{graphicx}
+\frenchspacing
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+\pdfinfo{
+/Title (Insert Your Title Here)
+/Author (Put All Your Authors Here, Separated by Commas)}
+\setcounter{secnumdepth}{0}  
+ \begin{document}
+% The file aaai.sty is the style file for AAAI Press 
+% proceedings, working notes, and technical reports.
+%
+\title{Learning augmented planning for challenging multi-agent envronments}
+\author{Charles Higgins, Odinaldo Rodrigues,  Michael Luck\\
+Kings College London\\
+Center for Doctoral Training in Safe and Trusted AI
+}
+\maketitle
+\begin{abstract}
+Recent success in game-playing AI have relied on the combination of model-free and model-based forms of learning and reasoning respectively. This work suggests a development of the learning-augmented search which tailors the search depending on the perceived types of opponent. We provide experimental results showing it to be more robust to uncertain conditions and multiple opponent types against state-of-the art baselines. This work, we argue is among to first line of which which effectively extends reinforcement learning augmented search to larger and more complex environments
+. 
+\end{abstract}
+\input{Sections/General_Context.tex}
+\input{Sections/The_literature.tex}  
+\input{Sections/Abstraction.tex}  
+\input{Sections/Algorithms.tex}
+
+\input{Sections/Shortcomings.tex}
+\input{Sections/Proposal.tex}
+\input{Sections/ExperimentalEval.tex}
+
+\bibliographystyle{aaai}  
+\bibliography{library.bib}
+\appendix
+\input{Sections/Appendix.tex}
+
+\end{document}
