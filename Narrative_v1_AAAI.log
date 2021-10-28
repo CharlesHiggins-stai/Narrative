@@ -1,144 +1,106 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.18)  16 SEP 2021 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.23)  18 OCT 2021 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.tex
-(/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+**/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.tex
+(/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/aaai.sty
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/aaai.sty
 Conference Style for AAAI for LaTeX 2e -- version of 1 December 2013
-\titlebox=\skip43
-) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
-Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+\titlebox=\skip49
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
-Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+\KV@toks@=\toks15
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.aux)
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 15.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count187
+\l__pdf_internal_box=\box47
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.aux)
 \openout1 = `Narrative_v1_AAAI.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count87
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count88
-\nofMParguments=\count89
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count90
-\MPscratchDim=\dimen106
-\MPnumerator=\count91
-\makeMPintoPDFobject=\count92
-\everyMPtoPDFconversion=\toks16
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+\scratchcounter=\count188
+\scratchdimen=\dimen141
+\scratchbox=\box48
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen142
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
- (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/General_Context.tex) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/The_literature.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 24.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/General_Context.tex) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/The_literature.tex
 Underfull \hbox (badness 2205) in paragraph at lines 10--1
 \OT1/ptm/m/n/10 not pos-si-ble. Any en-vi-ron-ment where the re-la-tion-ship
  []
@@ -195,7 +157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--1
 
 
 Underfull \hbox (badness 1783) in paragraph at lines 10--1
-\OT1/ptm/m/n/10 Traditional or reg-u-lar meth-ods of ac-tion se-leciton for
+\OT1/ptm/m/n/10 Traditional or reg-u-lar meth-ods of ac-tion se-lec-tion for
  []
 
 
@@ -226,14 +188,11 @@ Underfull \hbox (badness 1635) in paragraph at lines 10--1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-
 Underfull \hbox (badness 2512) in paragraph at lines 5--15
 \OT1/ptm/m/n/10 state and ac-tions, which max-imises dis-counted fu-ture
  []
@@ -450,7 +409,7 @@ Underfull \hbox (badness 1226) in paragraph at lines 40--50
 \OT1/ptm/m/n/10 selection, lim-it-ing their ap-pli-ca-bil-ity from fields which
  []
 
-[3]
+
 Underfull \hbox (badness 1147) in paragraph at lines 53--71
  \OT1/ptm/b/n/10 Re-in-force-ment learn-ing aug-mented search \OT1/ptm/m/n/10 In re-cent
  []
@@ -535,10 +494,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--71
 
  []
 
-
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Abstraction.tex
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Abstraction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--27
 
  []
@@ -677,7 +636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--58
 
  []
 
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Algorithms.tex
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Algorithms.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--13
 
  []
@@ -767,7 +726,7 @@ Underfull \hbox (badness 4060) in paragraph at lines 61--69
 \OT1/ptm/m/n/10 This ap-proach, typ-i-cally when paired with a strong
  []
 
-<Figures/MonteCarlo.png, id=32, 3703.8375pt x 2300.595pt>
+<Figures/MonteCarlo.png, id=31, 3703.8375pt x 2300.595pt>
 File: Figures/MonteCarlo.png Graphic file (type png)
 <use Figures/MonteCarlo.png>
 Package pdftex.def Info: Figures/MonteCarlo.png  used on input line 72.
@@ -803,7 +762,7 @@ Underfull \hbox (badness 1668) in paragraph at lines 77--86
  []
 
 [6]
-<Figures/POMCP.png, id=38, 4998.675pt x 1887.05pt>
+<Figures/POMCP.png, id=37, 4998.675pt x 1887.05pt>
 File: Figures/POMCP.png Graphic file (type png)
 <use Figures/POMCP.png>
 Package pdftex.def Info: Figures/POMCP.png  used on input line 89.
@@ -836,7 +795,7 @@ Underfull \hbox (badness 2302) in paragraph at lines 96--104
 \OT1/ptm/m/n/10 Bar-rett and Stone 2015), in which agent types were
  []
 
-[7 </home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Figures/MonteCarlo.png>])
+[7 </Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Figures/MonteCarlo.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 106--33
 
  []
@@ -854,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--33
 
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
- (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Shortcomings.tex
+ (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Shortcomings.tex
 Underfull \hbox (badness 1052) in paragraph at lines 3--8
 \OT1/ptm/m/n/10 guide search: play-ers' in-ten-tions are sym-met-ric --- the
  []
@@ -869,7 +828,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 3--8
 \OT1/ptm/m/n/10 un-knowns are known-unknowns, rather than unknown-
  []
 
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Proposal.tex
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Proposal.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--1
 
  []
@@ -909,7 +868,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 9--1
 \OT1/ptm/m/n/10 In brief: RL+Search ar-chi-tec-tures have yet to be ap-
  []
 
-[8 </home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Figures/POMCP.png>]
+[8 </Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Figures/POMCP.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
@@ -929,7 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/ExperimentalEval.tex
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/ExperimentalEval.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--1
 
  []
@@ -964,7 +923,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 10--1
 \OT1/ptm/m/n/10 have em-ployed opponent-weighted poli-cies to prune a
  []
 
-(/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Environments.tex
+(/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Environments.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
  []
@@ -1019,10 +978,7 @@ Underfull \hbox (badness 5771) in paragraph at lines 17--19
 \OT1/ptm/m/n/10 Hayashi et al. em-ploy type-based rea-son-ing with
  []
 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [10]) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.bbl
+) [10]) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.bbl
 Underfull \hbox (badness 1789) in paragraph at lines 5--10
 []\OT1/ptm/m/n/10 Albrecht, S. V., and Ra-mamoor-thy, S.  2016.  Ex-
  []
@@ -1032,20 +988,20 @@ Underfull \hbox (badness 1097) in paragraph at lines 66--72
 \OT1/ptm/m/n/10 Com-bin-ing deep re-in-force-ment learn-ing and search for
  []
 
-) (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Sections/Appendix.tex) [11] (/home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.aux) ) 
+) (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Sections/Appendix.tex) [11] (/Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.aux) ) 
 Here is how much of TeX's memory you used:
- 1644 strings out of 492982
- 26138 string characters out of 6134896
- 90124 words of memory out of 5000000
- 5155 multiletter control sequences out of 15000+600000
- 23340 words of font info for 47 fonts, out of 8000000 for 9000
+ 1419 strings out of 478994
+ 24048 string characters out of 5858184
+ 330166 words of memory out of 5000000
+ 18876 multiletter control sequences out of 15000+600000
+ 423758 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,25p,1203b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/k19030276/Desktop/PhD/CodeRepo/lbforage/Documents/Narrative/Narrative_v1_AAAI.pdf (11 pages, 657528 bytes).
+ 68i,10n,74p,1204b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/charleshiggins/PhD/WorkingFile/LASearch/Documents/Narrative/Narrative_v1_AAAI.pdf (11 pages, 650434 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
